@@ -10,7 +10,7 @@ I found these images from [this article](http://www.worldofindie.co.uk/?p=682) (
 * Python
 * `urllib2`
 * `pathlib2`
-* `multiprocessing
+* `multiprocessing`
 
 ### Running
 
