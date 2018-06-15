@@ -1,7 +1,9 @@
 # lunar-scrape
 > A simple Python script to scrape NASA's Planetary Data System (PDS) website and download images of the Moon.
 
-I found these images from [this article](http://www.worldofindie.co.uk/?p=682) ([HackerNews discussion](https://news.ycombinator.com/item?id=17311005)).
+I found these images from [this article](http://www.worldofindie.co.uk/?p=682) ([HackerNews discussion](https://news.ycombinator.com/item?id=17311005)). Direct link to images is [here](https://pds-imaging.jpl.nasa.gov/data/lo/LO_1001/EXTRAS/BROWSE/).
+
+Direc
 
 Image paths are scraped via `scrape-paths.py` script and saved to `images.txt`.
 
