@@ -7,7 +7,7 @@ I found these images from [this article](http://www.worldofindie.co.uk/?p=682) (
 
 ### Requirements
 
-* Python
+* Python 2.7
 * `urllib2`
 * `pathlib2`
 * `multiprocessing`
