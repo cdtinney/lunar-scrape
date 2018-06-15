@@ -26,9 +26,9 @@ def download_image(url, image_path):
 
 def get_save_path(base_dir, preserve_dir, image_path):
   if preserve_dir:
-    return base_dir + '/' + image_path
+    return os.path.join(base_dir, image_path)
   else:
-    return base_dir + '/' + image_path.replace('/', '_')
+    return os.path.join(base_dir, image_path.replace('/', '_'))
 
 def save_image(base_dir, preserve_dir, image_path, image):
     save_path = get_save_path(base_dir, preserve_dir, image_path)
