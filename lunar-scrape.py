@@ -24,5 +24,7 @@ def save_image(base_dir, image_path, image):
 def download_and_save_image(image_path):
     save_image(default_base_dir, image_path, download_image(root_url, image_path))
 
-def lunar_scrape():    
+def lunar_scrape():
     Pool(4).map(download_and_save_image, image_paths)
+
+lunar_scrape()
