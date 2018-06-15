@@ -3,7 +3,7 @@
 
 I found these images from [this article](http://www.worldofindie.co.uk/?p=682) ([HackerNews discussion](https://news.ycombinator.com/item?id=17311005)). Direct link to images is [here](https://pds-imaging.jpl.nasa.gov/data/lo/LO_1001/EXTRAS/BROWSE/).
 
-Image paths are scraped via `scrape-paths.py` script and saved to `images.txt`.
+Image paths are scraped via `scrape_paths.py` script and saved to `images.txt`.
 
 ## Getting Started
 
