@@ -3,20 +3,33 @@
 
 I found these images from [this article](http://www.worldofindie.co.uk/?p=682) ([HackerNews discussion](https://news.ycombinator.com/item?id=17311005)).
 
+Image paths are scraped via `scrape-paths.py` script and saved to `images.txt`.
+
 ## Getting Started
 
 ### Requirements
 
+For all scripts:
+
 * Python 2.7
 * `urllib2`
+
+To run `lunar_scrape.py` (the main script), you'll need:
+
 * `pathlib2`
 * `multiprocessing`
+
+To run `find_paths.py`, you'll need:
+
+* `functools`
+* `itertools`
+* `bs4` (BeautifulSoup)
 
 ### Running
 
 To download all images, run:
 ```
-python lunar-scrape.py
+python lunar_scrape.py
 ```
 
 This will download all images to the `/images` directory, preserving the original folder structure.
