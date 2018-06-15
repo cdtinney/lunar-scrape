@@ -32,4 +32,9 @@ To download all images, run:
 python lunar_scrape.py
 ```
 
-This will download all images to the `/images` directory, preserving the original folder structure.
+This will download all images to the `/images` directory, flattening them into a single directory.
+
+To preserve the original directory, run:
+```
+python lunar_scrape.py --preserve-dir
+```
